@@ -6,13 +6,13 @@ This project demonstrates how to design, deploy, and operate a **scalable, secur
 
 ---
 
-## 🧩 Architecture Diagram
+##  Architecture Diagram
 
 ![Serverless Lead Capture Architecture](Architecture-Diagram/01-serverless-lead-capture-architecture.png)
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The solution follows a **3-phase serverless architecture** to handle static website hosting, backend processing, and data persistence without managing any servers.
 
@@ -20,7 +20,7 @@ The solution follows a **3-phase serverless architecture** to handle static webs
 
 ## 🔹 Phase 1: Static Website Hosting (Amazon S3)
 
-### 🎯 Objective  
+###  Objective  
 Host a public static website using **Amazon S3**.
 
 ### 🛠 Steps
@@ -30,13 +30,13 @@ Host a public static website using **Amazon S3**.
 - Uploaded website files using `aws s3 sync`
 - Added a custom `404.html` error page
 
-✅ **Result:** Website successfully accessible via the S3 website endpoint.
+**Result:** Website successfully accessible via the S3 website endpoint.
 
 ---
 
 ## 🔹 Phase 2: Dynamic Contact Form (API Gateway + Lambda)
 
-### 🎯 Objective  
+###  Objective  
 Process contact form submissions using a serverless backend.
 
 ### 🛠 Steps
@@ -50,13 +50,13 @@ Process contact form submissions using a serverless backend.
 - Integrated API Gateway with Lambda
 - Updated frontend JavaScript to send `POST` requests to the API
 
-✅ **Result:** Form submissions successfully trigger Lambda execution.
+ **Result:** Form submissions successfully trigger Lambda execution.
 
 ---
 
 ## 🔹 Phase 3: Data Management (Amazon DynamoDB)
 
-### 🎯 Objective  
+###  Objective  
 Persist submitted contact messages.
 
 ### 🛠 Steps
@@ -69,11 +69,11 @@ Persist submitted contact messages.
 - Verified records using DynamoDB Explore Items
 - Verified execution logs in CloudWatch
 
-✅ **Result:** Leads are stored reliably and email notifications are delivered.
+ **Result:** Leads are stored reliably and email notifications are delivered.
 
 ---
 
-## 🧰 AWS Services Used
+##  AWS Services Used
 
 | Service | Purpose |
 |------|------|
@@ -89,15 +89,15 @@ Persist submitted contact messages.
 
 ## 🧪 Testing & Validation
 
-- ✅ Tested form submission from the website
-- ✅ Verified successful API responses
-- ✅ Verified DynamoDB records
-- ✅ Verified email delivery via SES
-- ✅ Verified Lambda logs in CloudWatch
+-  Tested form submission from the website
+-  Verified successful API responses
+-  Verified DynamoDB records
+-  Verified email delivery via SES
+-  Verified Lambda logs in CloudWatch
 
 ---
 
-## 🎯 Key Learnings
+##  Key Learnings
 
 - End-to-end serverless architecture design
 - Secure IAM permission management
