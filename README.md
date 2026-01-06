@@ -1,4 +1,4 @@
-# 🚀 Serverless Lead Capture on AWS
+# Serverless Lead Capture on AWS
 
 A fully serverless **lead capture & contact-us system** built on AWS using **Amazon S3, API Gateway, AWS Lambda, DynamoDB, and Amazon SES**.
 
@@ -8,7 +8,7 @@ This project demonstrates how to design, deploy, and operate a **scalable, secur
 
 ## 🧩 Architecture Diagram
 
-![Serverless Lead Capture Architecture](01-serverless-lead-capture-architecture.png)
+![Serverless Lead Capture Architecture](Architecture-Diagram/01-serverless-lead-capture-architecture.png)
 
 ---
 
