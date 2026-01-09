@@ -7,7 +7,7 @@ This project demonstrates how to design, deploy, and operate a **scalable, secur
 ---
     
 ##  Architecture Diagram
-
+         
 ![Serverless Lead Capture Architecture](Architecture-Diagram/01-serverless-lead-capture-architecture.png)
 
 ---
